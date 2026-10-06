@@ -12,6 +12,8 @@
         android:fullBackupOnly="false"
         android:supportsRtl="true">
 
+        <meta-data android:name="com.termux.GIT_COMMIT" android:value="${TERMUX_GIT_COMMIT}" />
+
         <activity
             android:name=".activities.TermuxTaskerMainActivity"
             android:exported="true"
